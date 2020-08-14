@@ -1,0 +1,24 @@
+*nonu.txt*  No Number
+
+Author:  Pirey <https://github.com/pirey>
+License: Same terms as Vim itself (see |license|)
+
+
+SUMMARY                                         *nonu*
+
+For some filetypes, line number doesn't make sense and they're just there
+taking space without purpose.
+
+This plugin let you easily hide line number for all specified filetypes.
+
+EXAMPLE                                         *nonu-example*
+
+>
+    let g:nonu_filetypes = ['git', 'gitcommit', 'fzf', 'fugitive']
+<
+
+After that, when you open any of those filetypes, line number will be hidden
+by default.
+
+
+ vim:tw=78:et:ft=help:norl:
