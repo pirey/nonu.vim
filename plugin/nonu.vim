@@ -21,7 +21,6 @@ function! s:main()
     let l:filetypes_str = join(l:filetypes, ',')
 
     if len(l:filetypes) <= 0
-        echom 'nonu_filetypes is empty'
         return
     endif
 
